@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="Muhlisin Ramadhan" content="SMK Shop">
+        <title>SMK Shop</title>
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <div class="jumbotron">
+                <img src="assets/image/logo.png" class="Logo" alt="Logo">
+                <h1>SMK Shop</h1>
+                <p>Online Shop Pertama Milik Anak Bangsa</p>
+            </div>
+
+            <nav> 
+                <ul>
+                
+                <li class="white"><strong>SMK Shop</strong></li>
+                        <li><a href="#Home">Home<sup></sup></a></li>
+                        <li><a href="#Discount">Discount<sup></sup></a></li>
+                        <li><a href="#Product">Product<sup></sup></a></li>
+                        <li><a href="#About">About<sup></sup></a></li>
+                        <li><a href="#Cart"> Cart <sup><span id="count"></span></sup></a></li>
+                        <ul>
+                            <li><a href="#" onclick="close_window();return false;"><button id="clear" class="button">Logout</button></a></li>
+                        </ul>
+                </ul>
+
+                        
+            </nav>
+        </header>
+  
+        <main>
+            <div id="content">
+                <article class="card">
+                    <h2 id="Home">Home</h2>
+                    <img src="assets/image/online.jpeg" class="fmg" alt="Home">
+                 <p>Mall digengaman anda, sekarang belanja semua kebutuhan bisa dilakukan dirumah aja.<br> 
+                    Dengan berbelanja online anda dapat <em>menghemat waktu, tenaga, dan pengeluaran </em> karena dapat dilakukan kapan saja dan dimana saja.</p>
+                  
+                 <p>Kenapa harus berbelanja di toko kami ?</p>
+                
+                 <p>
+                    Karna kami adalah toko resmi yang bekerja sama dengan berbagai merk produk untuk menjual produk <em>original</em> yang <em>murah</em> dan <em>berkualitas.</em><br>
+                    Dengan ribuan merk, jenis, dan model <strong>SMK Shop</strong> <em>terupdate setiap harinya. </em> <br>
+                    Belanja di kami juga tersedia <em>gratis sovenir</em> sebagai tanda terimakasih kami. <br>
+                 </p>
+
+                 <p>
+                    Jadi tunggu apa lagi ?<br>
+                    Segera belanja di toko kami
+                </p>
+                </article>
+
+                <article class="card">
+                    <h2 id="Discount">Discount</h2>
+                    <img src="assets/image/discount.jpeg" class="fmg" alt="Discount">
+                 <p><strong>JANGAN LEWATKAN DISKON FANTASTIS!<br> 
+                    DISKON HINGGA 90%</strong>
+                </p>
+
+                <div class='gambar'>
+
+                    <div class='foto'>
+                        <img src="assets/image/beat.png" class="fmgq" alt="Honda Beat Street">
+                        <h1 class="tu">Honda Beat Street</h1>
+                        <div class="disc">Rp. 18.000.000</div>
+                        <div><strong>Rp. 15.000.000</strong></div>
+                        <button id="button" class="button" >Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/rog.png" class="fmgq" alt="Asus ROG Phone II">
+                        <h1 class="tu">Asus ROG Phone II</h1>
+                        <div class="disc">Rp. 9.200.000</div>
+                        <div><strong>Rp. 5.000.000</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/oreo.png" class="fmgq" alt="Oreo Supreme">
+                        <h1>Oreo Supreme</h1>
+                        <div class="disc">Rp. 500.000</div>
+                        <div><strong>Rp. 199.999</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/terigu.png"class="fmgq" alt="Tepung Terigu Bogasari">
+                        <h1>Tepung Terigu Bogasari</h1>
+                        <div class="disc">Rp. 18.000</div>
+                        <div><strong>Rp. 9.999</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                <h2 id="Product">Product</h2>
+                <img src="assets/image/new.jpg" class="fmg" alt="Product">
+                 <p><strong>PRODUK TOKO</strong></p>
+
+                 <div class='gambar'>
+
+                    <div class='foto'>
+                        <img src="assets/image/wipol,png.png"class="fmgq" alt="Wipol">
+                        <h1>Wipol</h1>
+                        <div><strong>Rp. 20.000</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/beras.png"class="fmgq" alt="Beras 5KG">
+                        <h1>Beras 5KG</h1>
+                        <div><strong>Rp. 60.000</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/samyang.png"class="fmgq" alt="Samyang Hot">
+                        <h1>Samyang Hot</h1>
+                        <div><strong>Rp. 15.000</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+
+                    <div class='foto'>
+                        <img src="assets/image/sk ii.png"class="fmgq" alt="SK II Staterpack">
+                        <h1>SK II Staterpack</h1>
+                        <div><strong>Rp. 1.000.000</strong></div> 
+                        <button id="button" class="button">Beli Sekarang</button>
+                    </div>
+                </article>
+
+            </div>
+
+
+        <aside class="profile card">
+            <article class="profile">
+                <header>
+                    <h2 id="About">About</h2>
+                    <p>Muhlisin Ramadhan</p>
+                    <figure>
+                        <img src="assets/image/diri.png" class="fmgqq" alt="Foto Muhlisin Ramadhan">
+                        <figcaption><em>Foto</em></figcaption>
+                    </figure>
+                    <P>Seorang anak SMK yang belajar Dasar Pemprograman Web di Dicoding Academy melalui beasiswa Idcamp.</P>
+                </header>
+
+                <section>
+                    <h3 id="Contact">Contact Us</h3>
+         <table>
+            <tr>
+               <th>WhatsApp</th>
+               <td>: <a href="https://wa.me/6282298258670?text=Hallo!">082298258670</a></td>
+            </tr>
+            <tr>
+                <th>Telegram</th>
+                <td>: <a href="https://t.me/Mramadh">082298258670</a></td>
+             </tr>
+            <tr>
+               <th>Instagram</th>
+               <td>: <a href="https://instagram.com/Rama_dhan.exe">Rama_dhan.exe</a></td>
+            </tr>
+            <tr>
+               <th>Twitter</th>
+               <td>: <a href="https://twitter.com/@muhlisinramada1">@muhlisinramada1</a></td>
+            </tr>
+            <tr>
+               <th>LINE</th>
+               <td>: <a href="http://line.me/ti/p/liku123">@liku123</td>
+            </tr>
+               <tr>
+               <th>Email</th>
+               <td>: <a href = "mailto:wem2rs@gmail.com">wem2rs@gmail.com</a></td>
+            </tr>
+        </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    
+        <footer>
+            <p>Made By Muhlisin Ramadhan</p>
+            <p>Belajar Dasar Pemrograman Web &#169; 2020, Dicoding Academy</p>
+         </footer>
+         
+        <script src="assets/js/smk.js"></script>
+    </body>
+
+   
+</html> 

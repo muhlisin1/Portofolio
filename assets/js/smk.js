@@ -1,0 +1,32 @@
+console.log("JavaSript SMK Shop By: Muhlisin Ramadhan")
+
+function close_window() {
+    if (confirm("Yakin Ingin Keluar? Produk di cart akan hilang")) {
+      close();
+    }
+  }
+
+const cacheKey = "NUMBER";
+       if (typeof(Storage) !== "undefined") {
+
+           if (localStorage.getItem(cacheKey) === "undefined") {
+
+               localStorage.setItem(cacheKey, 0);
+           }
+ 
+           const button = document.querySelector("#button");
+           const clearButton = document.querySelector("#clear")
+           const count = document.querySelector("#count");
+           button.addEventListener('click', function(event) {
+               let number = localStorage.getItem(cacheKey);
+               number++;
+               localStorage.setItem(cacheKey, number);
+               count.innerText = localStorage.getItem(cacheKey);
+           });
+           
+           clearButton.addEventListener('click', function(event) {
+               localStorage.removeItem(cacheKey);
+           });
+       } else {
+           alert("Yah Sayang Sekali Browser tidak mendukung Web Storage :(")
+       }
